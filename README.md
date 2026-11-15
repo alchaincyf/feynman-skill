@@ -175,11 +175,13 @@ npx skills add alchaincyf/feynman-skill
 
 | Runtime | 安装路径 |
 |---|---|
-| Claude Code | `~/.claude/skills/feynman-skill/` |
-| Codex CLI | `~/.codex/skills/feynman-skill/` |
-| Cursor | `~/.cursor/skills/feynman-skill/` |
-| OpenClaw | `~/.openclaw/workspace/skills/feynman-skill/` |
+| Claude Code | `~/.claude/skills/feynman-perspective/` |
+| Codex CLI | `~/.codex/skills/feynman-perspective/` |
+| Cursor | `~/.cursor/skills/feynman-perspective/` |
+| OpenClaw | `~/.openclaw/workspace/skills/feynman-perspective/` |
 | Hermes Agent | 跑该 runtime 的 install 脚本或 clone 到其 skills 目录 |
+
+手动安装时，目录名必须与 `SKILL.md` frontmatter 的 `name` 一致：`feynman-perspective`。仓库地址仍是 `alchaincyf/feynman-skill`。
 
 ```bash
 git clone https://github.com/alchaincyf/feynman-skill <对应路径>
